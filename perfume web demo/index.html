@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5f1e9" />
+  <meta name="description" content="Discover your next signature scent with Zarat Fragrance." />
+  <title>Zarat Fragrance — Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="footer.css" />
+</head>
+
+<body>
+  <div class="announcement">A little luxury, delivered across Pakistan <span>·</span> Complimentary delivery over Rs.
+    5,000</div>
+  <header class="site-header">
+    <button class="icon-button menu-toggle" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24">
+        <path d="M3 7h18M3 12h18M3 17h18" />
+      </svg></button>
+    <nav class="nav nav-left"><a href="index.html">Home</a><a href="shop.html">Shop all</a><a
+        href="shop.html?category=Women">For her</a><a href="shop.html?category=Men">For him</a><a href="about.html">Our
+        story</a></nav>
+    <a class="wordmark" href="index.html" aria-label="Zarat Fragrance home"><span
+        class="mark">Z</span><span>ZARAT<small>FRAGRANCE</small></span></a>
+    <div class="header-actions"><label class="search-box"><svg viewBox="0 0 24 24">
+          <circle cx="10.8" cy="10.8" r="6.8" />
+          <path d="m16 16 5 5" />
+        </svg><input class="product-search" type="search" placeholder="Search fragrances"
+          aria-label="Search fragrances" /></label></div>
+    <button class="icon-button bag-button" aria-label="Open order form"><svg viewBox="0 0 24 24">
+        <path d="M5 8h14l1 13H4L5 8Z" />
+        <path d="M9 9V6a3 3 0 0 1 6 0v3" />
+      </svg><span class="bag-count">0</span></button>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A SCENT THAT STAYS WITH YOU</p>
+        <h1>Leave a little<br /><em>of yourself</em><br />wherever you go.</h1>
+        <p class="hero-text">Find the fragrance that feels like you. Made for everyday moments, and the ones you never
+          forget.</p><button class="button button-dark" data-buy="Oud No. 1">Shop now <span>↗</span></button><a
+          class="text-link hero-browse" href="shop.html">Browse all fragrances</a>
+        <div class="hero-note"><span class="note-line"></span><span>Considered scents. Made to be remembered.</span>
+        </div>
+      </div>
+      <div class="hero-visual"><img
+          src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1300&q=85"
+          alt="An elegant perfume bottle in warm golden light" />
+        <div class="hero-stamp"><span>THE</span><strong>ZARAT<br />EDIT</strong><span>VOL. 01 · 2026</span></div>
+        <div class="hero-caption">THE SIGNATURE COLLECTION <span>01 / 04</span></div>
+      </div>
+    </section>
+    <section class="trust-strip"><span>Thoughtfully chosen fragrances</span><i></i><span>Cash on delivery
+        available</span><i></i><span>Made for every day</span></section>
+    <section class="collection section-wrap" id="collection">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE ZARAT SELECTION</p>
+          <h2>Find your next <em>favourite.</em></h2>
+        </div><a class="text-link" href="shop.html">View all fragrances <span>↗</span></a>
+      </div>
+      <div class="product-grid" id="product-grid" data-limit="4" aria-live="polite"></div>
+    </section>
+    <section class="story-teaser">
+      <div>
+        <p class="eyebrow">A NOTE FROM ZARAT</p>
+        <h2>Fragrance is more than a finishing touch.</h2>
+        <p>It is the first hello, the memory that lingers, the quiet confidence you carry into a room.</p><a
+          href="about.html" class="text-link">Get to know us <span>↗</span></a>
+      </div><img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=1100&q=85"
+        alt="Perfume and botanicals arranged on a studio table" />
+    </section>
+  </main>
+  <footer>
+    <div class="footer-about"><a class="wordmark footer-mark" href="index.html"><span
+          class="mark">Z</span><span>ZARAT<small>FRAGRANCE</small></span></a>
+      <p>Fragrances for everyday moments and the memories that stay with you.</p>
+    </div>
+    <div class="footer-column">
+      <h3>Explore</h3><a href="shop.html">Shop all fragrances</a><a href="shop.html?category=Women">For her</a><a
+        href="shop.html?category=Men">For him</a><a href="shop.html?category=Unisex">Unisex</a>
+    </div>
+    <div class="footer-column">
+      <h3>Discover Zarat</h3><a href="about.html">Our story</a><a href="shop.html">How to order</a>
+      <p>Cash on delivery available<br />Delivery across Pakistan</p>
+    </div>
+    <div class="footer-bottom"><span>Wear what feels like you.</span><small>© 2026 Zarat Fragrance · Pakistan</small>
+    </div>
+  </footer>
+  <div class="overlay" id="order-overlay" aria-hidden="true">
+    <section class="order-modal" role="dialog" aria-modal="true" aria-labelledby="order-title"><button
+        class="modal-close" aria-label="Close order form">×</button>
+      <p class="eyebrow">A GOOD CHOICE</p>
+      <h2 id="order-title">Make it yours.</h2>
+      <p class="modal-intro">Complete your details to save an order request on this device.</p>
+      <form id="order-form"><label>Fragrance<select name="product" id="order-product"
+            required></select></label><label>Your name<input name="name" autocomplete="name" required
+            placeholder="Full name" /></label><label>Phone number<input name="phone" autocomplete="tel" type="tel"
+            required placeholder="03xx xxxxxxx" /></label><label>Delivery address<textarea name="address"
+            autocomplete="street-address" required rows="2" placeholder="House, street, area, city"></textarea></label>
+        <div class="form-row"><label>Quantity<div class="quantity"><button type="button" data-qty="-1"
+                aria-label="Decrease quantity">−</button><input name="quantity" value="1" aria-label="Quantity"
+                readonly /><button type="button" data-qty="1" aria-label="Increase quantity">+</button></div>
+          </label><label>Payment<select name="payment">
+              <option>Cash on delivery</option>
+              <option>Bank transfer</option>
+            </select></label></div><button class="button button-dark submit-order" type="submit">Place order
+          <span>↗</span></button>
+        <p class="form-footnote">Demo only: this form does not send the order to Zarat.</p>
+      </form>
+      <div class="success-state" hidden><span class="success-mark">✓</span>
+        <h3>Thank you for choosing Zarat.</h3>
+        <p>Your request has been saved in this browser. Connect an order service to receive live customer orders.</p>
+        <button class="button button-dark done-button">Continue browsing</button>
+      </div>
+    </section>
+  </div>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
