@@ -1,0 +1,12 @@
+/* Keep the shop filters and product cards comfortably inset from the viewport edges. */
+.shop-collection {
+  padding-left: 8.2%;
+  padding-right: 8.2%;
+  padding-bottom: 84px;
+}
+@media (max-width: 1000px) {
+  .shop-collection { padding-left: 5%; padding-right: 5%; }
+}
+@media (max-width: 620px) {
+  .shop-collection { padding-left: 5%; padding-right: 5%; }
+}

@@ -4,14 +4,14 @@ const products = [
   {name:'Rose Veil',category:'Women',notes:'Rose petals · musk · warm vanilla',price:2850,tag:'A SOFTER SIDE',tone:'#dfc8c3',image:'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=700&q=80'},
   {name:'Noir Santal',category:'Unisex',notes:'Sandalwood · spice · skin musk',price:3500,tag:'ZARAT SIGNATURE',tone:'#c8bca8',image:'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=700&q=80'},
   {name:'Musk Élan',category:'Men',notes:'Clean musk · cedar · bergamot',price:2950,tag:'EVERYDAY FAVOURITE',tone:'#c4c7bc',image:'https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=700&q=80'},
-  {name:'Jasmine Dusk',category:'Women',notes:'Jasmine · white tea · amber',price:3100,tag:'JUST DISCOVERED',tone:'#d5c8ae',image:'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=700&q=80'},
+  {name:'Jasmine Dusk',category:'Women',notes:'Jasmine · white tea · amber',price:3100,tag:'JUST DISCOVERED',tone:'#d5c8ae',image:'https://images.unsplash.com/photo-1765306163629-c7f4dfb2ff41?auto=format&fit=crop&w=700&q=80'},
   {name:'Saffron Smoke',category:'Unisex',notes:'Saffron · incense · dark woods',price:3750,tag:'FOR THE EVENING',tone:'#cab9a2',image:'https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=700&q=80'},
-  {name:'Amber Bloom',category:'Women',notes:'Golden amber · orange blossom · vanilla',price:3350,tag:'WARM & GLOWING',tone:'#d8b991',image:'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=700&q=80'},
-  {name:'Cedar Coast',category:'Men',notes:'Sea salt · cedar · fresh citrus',price:3050,tag:'FRESH PICK',tone:'#c3c9c3',image:'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=700&q=80'},
-  {name:'Velvet Musk',category:'Unisex',notes:'White musk · iris · cashmere woods',price:3600,tag:'SOFT & SUBTLE',tone:'#d1c8bd',image:'https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=700&q=80'},
-  {name:'Peony Affair',category:'Women',notes:'Peony · pear · sheer rose',price:2900,tag:'LIGHT & LOVELY',tone:'#dfc5c5',image:'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=700&q=80'},
-  {name:'Black Reserve',category:'Men',notes:'Black pepper · leather · patchouli',price:3950,tag:'THE NIGHT EDIT',tone:'#b9afa1',image:'https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=700&q=80'},
-  {name:'Citrus No. 5',category:'Unisex',notes:'Bergamot · neroli · green tea',price:2750,tag:'BRIGHT & EASY',tone:'#d8d0ad',image:'https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=700&q=80'}
+  {name:'Amber Bloom',category:'Women',notes:'Golden amber · orange blossom · vanilla',price:3350,tag:'WARM & GLOWING',tone:'#d8b991',image:'https://images.unsplash.com/photo-1714218723982-95803a4b23d1?auto=format&fit=crop&w=700&q=80'},
+  {name:'Cedar Coast',category:'Men',notes:'Sea salt · cedar · fresh citrus',price:3050,tag:'FRESH PICK',tone:'#c3c9c3',image:'https://images.unsplash.com/photo-1666621630026-862eea07236c?auto=format&fit=crop&w=700&q=80'},
+  {name:'Velvet Musk',category:'Unisex',notes:'White musk · iris · cashmere woods',price:3600,tag:'SOFT & SUBTLE',tone:'#d1c8bd',image:'https://images.unsplash.com/photo-1737424064873-89db6803084a?auto=format&fit=crop&w=700&q=80'},
+  {name:'Peony Affair',category:'Women',notes:'Peony · pear · sheer rose',price:2900,tag:'LIGHT & LOVELY',tone:'#dfc5c5',image:'https://images.unsplash.com/photo-1458538977777-0549b2370168?auto=format&fit=crop&w=700&q=80'},
+  {name:'Black Reserve',category:'Men',notes:'Black pepper · leather · patchouli',price:3950,tag:'THE NIGHT EDIT',tone:'#b9afa1',image:'https://images.unsplash.com/photo-1721190171118-c5c0921ea6c0?auto=format&fit=crop&w=700&q=80'},
+  {name:'Citrus No. 5',category:'Unisex',notes:'Bergamot · neroli · green tea',price:2750,tag:'BRIGHT & EASY',tone:'#d8d0ad',image:'https://images.unsplash.com/photo-1680503504076-e5c61901c36d?auto=format&fit=crop&w=700&q=80'}
 ];
 const grid=document.querySelector('#product-grid');
 const overlay=document.querySelector('#order-overlay');

@@ -1,0 +1,32 @@
+/* Stronger photo treatment lets the fragrance bottles stand out from the card tint. */
+.product-image {
+  height: 340px;
+  background: #d6c7b1;
+  border: 1px solid rgba(44, 37, 28, .12);
+}
+.product-image::before { opacity: .08; }
+.product-image img {
+  mix-blend-mode: normal;
+  opacity: 1;
+  filter: saturate(1.12) contrast(1.1);
+}
+.product-image::after {
+  content: "";
+  position: absolute;
+  inset: 45% 0 0;
+  background: linear-gradient(transparent, rgba(24, 20, 15, .12));
+  pointer-events: none;
+}
+.product-tag {
+  padding: 7px 9px;
+  background: rgba(250, 247, 240, .94);
+  color: #25221d;
+  font-weight: 700;
+}
+.product-info h3 { color: #201e1a; }
+.product-info strong { color: #25221d; }
+.product-info p { color: #59554e; }
+.hero-visual > img { filter: saturate(1.02) contrast(1.06); }
+.story-teaser img, .about-hero img { filter: saturate(1.08) contrast(1.04); }
+@media (max-width: 1000px) { .product-image { height: 290px; } }
+@media (max-width: 620px) { .product-image { height: 250px; } }
